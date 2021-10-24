@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(252, 217, 165, 0.671);
+}
+
+/*Corpo azul da calculadora*/
+main{
+    background-color: rgba(110, 175, 228, 0.877);
+    
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
+    margin: auto;
+    padding: auto;
+
+}
+
+/*Titulo da calculadora*/
+h2{
+    text-align: center;
+}
+
+/*Campos que o usuario coloca os valores*/
+.inp{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+/*Operadores*/
+.span{
+    color: white;
+    background-color: rgba(11, 2, 73, 0.863);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    
+}
+#sinais{
+    text-align: center;   
+}
+
+.span:hover{
+    transition: 0.5s;
+    background-color: rgba(112, 128, 144, 0.596);
+}
+
+/*Botão "=" para calcular*/
+#cal{
+    text-align: center;
+}
+#calcular{
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+
+/*Divi que mostra o resultado*/
+#res{
+    
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main> <!--Corpo azul da calculadora-->
+        <h2>Calculadora JS</h2> <!--Titulo da calculadora-->
+        <hr>
+
+        <div class="inp"> <!--Campos que o usuario coloca os valores-->
+            <input type="number" name="n1" id="n1">
+        </div>
+        <div class="inp">
+            <input type="number" name="n2" id="n2">
+        </div>
+
+        <div id="sinais"> <!--Operadores-->
+            <span class="span">
+                <input type="radio" name="cl" id="soma"> +
+            </span>
+            <span class="span">
+                <input type="radio" name="cl" id="sub">  -
+            </span>
+            <span class="span">
+                <input type="radio" name="cl" id="mult"> x 
+            </span>
+            <span class="span">
+                <input type="radio" name="cl" id="divi"> /
+            </span>
+        </div>
+
+        <div id="cal"> <!--*Botão "=" para calcular-->
+            <input type="button" value="  =  " id="calcular">
+        </div>
+        
+        <div id="res">
+
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
